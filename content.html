@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <p class="text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          iure, sint ex blanditiis quod ad error id corporis. Porro ut accusamus
+          tenetur quia. Quia cumque error fugiat mollitia sit inventore.
+        </p>
+        <p class="text-left">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          iure, sint ex blanditiis quod ad error id corporis. Porro ut accusamus
+          tenetur quia. Quia cumque error fugiat mollitia sit inventore.
+        </p>
+        <p class="text-right">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          iure, sint ex blanditiis quod ad error id corporis. Porro ut accusamus
+          tenetur quia. Quia cumque error fugiat mollitia sit inventore.
+        </p>
+        <p class="text-uppercase">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          iure, sint ex blanditiis quod ad error id corporis. Porro ut accusamus
+          tenetur quia. Quia cumque error fugiat mollitia sit inventore.
+        </p>
+        <blockquote class="blockquote">
+          <p class="text-capitalize">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            iure, sint ex blanditiis quod ad error id corporis. Porro ut
+            accusamus tenetur quia. Quia cumque error fugiat mollitia sit
+            inventore.
+          </p>
+        </blockquote>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-primary">Blue</button>
+        <button type="button" class="btn btn-secondary">Grey</button>
+        <button type="button" class="btn btn-success">Green</button>
+        <button type="button" class="btn btn-danger">Red</button>
+        <button type="button" class="btn btn-warning">Yellow</button>
+        <button type="button" class="btn btn-info">Sky blue</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <button type="button" class="btn btn-link">Link</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/Images/JotaroProfile.png" class="img-fluid" alt="Jotaro" />
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/Images/b4004-nPubXwI7zvZo.png"
+            class="img-fluid"
+            alt="Dio"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <form>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label"
+              >Email</label
+            >
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label"
+              >Password</label
+            >
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" />
+            </div>
+          </div>
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Age</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="gridRadios1"> Male </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="gridRadios2">
+                  Female
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios3"
+                  value="option3"
+                  disabled
+                />
+                <label class="form-check-label" for="gridRadios3">
+                  Other
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck1"
+                />
+                <label class="form-check-label" for="gridCheck1"> Agree </label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+      <div class="row">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+  </body>
+</html>
